@@ -1,0 +1,314 @@
+@font-face {
+    font-family: Kop1;
+    src: url(fonts/Bhineka.ttf);
+}
+
+@font-face {
+    font-family: Kop2;
+    src: url(fonts/Holen\ Vintage.otf);
+}  
+
+@font-face {
+    font-family: Kop3;
+    src: url(fonts/Poppins-LightItalic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Kop1', sans-serif;
+    font-size: 2.5em;
+    font-weight: 100;
+    margin-bottom: 0.4em;
+}
+
+h2{
+    font-family: 'Kop2', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-bottom: 0.4em;
+}
+
+h3{
+    font-family: 'Kop2', sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    margin-bottom: 0.4em;
+}
+
+p{
+    font-family: 'sans-serif';
+    font-size: 0.8em;
+    font-weight: 100;
+    line-height: 1.4em;
+}
+
+body{
+    background-color: #694E48;
+    color: #FFFFFF;
+}
+
+body main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+/*Homepagina Start*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #251615;
+    padding: 0 0.8em 0 0.8em;
+    width: 100%;
+}
+
+header img{
+    width: 3.8em;
+    margin: 0 1.9em 0 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav li {
+    padding: 0 0.4em 0 0.4em;
+    font-family: 'Kop3', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a:active{
+    color: #b6f290;
+}
+
+.home{
+    width: 100%;
+    background-image: url(images/illustratie-bkg-oranje.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative;
+    background-attachment: local;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10em 3em 2.5em 3em;
+}
+
+.home img{
+    width: 12em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7em 0 9.5em 0;
+}
+
+.home h1{
+    font-size: 3em;
+}
+.home h2{
+    font-size: 1em;
+    font-family: 'Kop3', sans-serif;
+    margin-top: -1.5em;
+}
+
+.home-opdracht{
+    background-color: #251615;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 4em 2em 5em 2em;
+}
+/*Homepagina Start*/
+
+
+/*Cacao&Spice pagina Start*/
+article{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:left;
+    padding-top: 3em;
+    margin-bottom: 2em;
+}
+
+article h1{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 6em;
+    margin: 1em 0 2.5em 0;
+}
+
+.background{
+    width: 100%;
+    background-image: url(images/patroon-bkg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+    background-attachment: fixed;
+    background-color: #251615;
+    box-sizing: border-box;
+    padding: 2em 3em 3em 3em;
+}
+
+.background p{
+    padding: 0 0 2em 0;
+}
+
+.background h2{
+    margin: 2em 0 0 0;
+}
+
+.producten{
+    box-sizing: border-box;
+    width: 85vw;
+    margin: 1em 0 2em 0;
+    text-align: center;
+    background-color: #251615;
+    border-radius: 12px;
+}
+
+.producten img{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 0 0 2.2em 0;
+}
+
+.producten img:active{
+    transform: scale(1.2);
+}
+
+.producten p{
+    padding: 0 1em 1.5em 1em;
+}
+
+.producten a img{
+    width: 50px;
+}
+/*Cacao&Spice pagina Eind*/
+
+
+/*Mening pagina Start*/
+.mening{
+    width: 100%;
+    background-image: url(images/illustratie-bkg-oranje.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: local;
+    box-sizing: border-box;
+    padding: 4em 3em 0 3em;
+
+}
+
+.intro-tekst{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:left;
+    padding: 0 3em 2em 3em;
+}
+
+.winkel{
+    width: 100%;
+    margin: 1em 0 2em 0;
+    text-align: center;
+    background-color: #694E48;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.winkel img{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 0 0 2.2em 0;
+}
+
+.winkel p{
+    padding: 0 1em 1.5em 1em;
+}
+
+/*Mening pagina Eind*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 1em 0 0.5em 0;
+}
+
+footer img{
+    width: 3em;
+}
+
+footer h3{
+    font-size: 1.1em;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing:border-box;
+    list-style: none;
+}
+
+footer li{
+    margin: 1em 0.3em 0 0.3em;
+    font-size: 1.1em;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:active{
+    color: #b6f290;
+}
